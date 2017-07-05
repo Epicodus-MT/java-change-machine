@@ -1,4 +1,8 @@
 <!--result.vtl-->
-<h1>Your coin counts</h1>
-<p>Your total coins are $finalResult.</p>
+  #if($flCash > 8.20)
+  <h1>You are out of coinzzz!</h1>
+  #else
+  <h1>Your coin counts</h1>
+  <h3>Your total coins are $finalResult.</h3>
+  #end
 <!--result.vtl-->
